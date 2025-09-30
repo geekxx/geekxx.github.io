@@ -59,7 +59,7 @@
         {% for ingredient in page.ingredients %}{{ ingredient | tojson }}{% if not loop.last %}, {% endif %}{% endfor %}
       ],
       "recipeInstructions": [
-        {% for step in page.instructions %}{ "@type": "HowToStep", "text": {{ step | tojson }} }{% if not loop.last %}, {% endif %}{% endfor %}
+        {% for step in page.instructions %}{{ step | tojson }}{% if not loop.last %}, {% endif %}{% endfor %}
       ]
       {% if page.prep_time %}, "prepTime": "{{ page.prep_time }}"{% endif %}
       {% if page.cook_time %}, "cookTime": "{{ page.cook_time }}"{% endif %}
