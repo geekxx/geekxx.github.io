@@ -3,7 +3,6 @@ layout: recipe
 title: "Teriyaki Salmon with Broccoli and Jasmine Rice"
 author: "Jeffrey Heinen"
 description: "A quick teriyaki salmon dinner with broccoli and jasmine rice — ready in about 20 minutes."
-image: "/images/teriyaki-salmon.jpg"
 prep_time: "PT5M"
 cook_time: "PT15M"
 total_time: "PT20M"
