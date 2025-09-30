@@ -1,10 +1,17 @@
 name: Build and publish recipe previews
 
+permissions:
+  contents: read
+  pages: write
+  issues: write
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    paths:
+      - 'recipes/**'
   workflow_dispatch: {}
 
 jobs:
@@ -37,3 +44,16 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site_preview
           publish_branch: gh-pages
+
+      - name: Comment PR with preview link
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const previewBase = `https://${owner}.github.io/${repo}`;
+            const indexUrl = `${previewBase}/index.html`;
+            const body = `Preview built for this PR: ${indexUrl}\n\nYou can also view the specific recipe pages from the index.`;
+            await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body });
