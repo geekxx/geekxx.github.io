@@ -1,0 +1,30 @@
+---
+layout: recipe
+title: "Pressure Cooker Chicken & Vegetable Stew"
+author: ""
+description: "A hearty Instant Pot-style chicken and vegetable stew for two, quick to make and comforting."
+prep_time: "10m"
+cook_time: "15m"
+total_time: "30m"
+yield: "2 servings"
+category: "Main"
+cuisine: "Comfort"
+ingredients:
+  - "2 boneless skinless chicken breasts (8–10 oz total), cut into bite-sized pieces"
+  - "2 medium carrots, diced"
+  - "2 celery stalks, chopped"
+  - "1 cup green beans, trimmed and cut into 1-inch pieces"
+  - "2 small potatoes, diced"
+  - "1 small onion, diced"
+  - "3 cups low-sodium chicken broth"
+  - "1 tsp dried thyme"
+  - "1/2 tsp dried rosemary (optional)"
+  - "1 bay leaf (optional)"
+  - "Salt and pepper to taste"
+  - "1 tbsp olive oil"
+instructions:
+  - "Set Instant Pot to Sauté mode. Add olive oil and cook onion 2–3 minutes until fragrant, then add carrots and celery for 2 minutes."
+  - "Add chicken pieces and sear lightly for 1–2 minutes. Add thyme, rosemary, bay leaf, salt, and pepper."
+  - "Pour in chicken broth, then add potatoes and green beans. Lock lid and set valve to Sealing. Cook on High Pressure for 8 minutes."
+  - "Allow a 5-minute natural release, then quick-release remaining steam. Open lid, discard bay leaf, adjust seasoning, and serve."
+---
