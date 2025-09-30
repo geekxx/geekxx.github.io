@@ -1,0 +1,31 @@
+---
+layout: recipe
+title: "Korean-Style Spicy Chicken Bulgogi Stir-Fry"
+author: ""
+description: "Spicy bulgogi-style chicken stir-fry with onions and bell peppers, served over rice."
+prep_time: "20m"
+cook_time: "12m"
+total_time: "32m"
+yield: "2 servings"
+category: "Main"
+cuisine: "Korean"
+ingredients:
+  - "12 oz boneless skinless chicken thighs or breast, thinly sliced"
+  - "1 small onion, thinly sliced"
+  - "1 red bell pepper, thinly sliced"
+  - "1 green bell pepper, thinly sliced"
+  - "2 tbsp gochujang (adjust to taste)"
+  - "2 tbsp low-sodium soy sauce"
+  - "1 tbsp sesame oil"
+  - "1 tbsp brown sugar or honey"
+  - "2 cloves garlic, minced"
+  - "1 tsp grated ginger"
+  - "1 tbsp rice vinegar (optional)"
+  - "2 cups cooked white rice"
+instructions:
+  - "In a bowl, combine gochujang, soy sauce, sesame oil, brown sugar, garlic, ginger, and rice vinegar. Add a splash of water if needed to thin the marinade."
+  - "Toss sliced chicken in the marinade and refrigerate for at least 20 minutes (up to 2 hours)."
+  - "Heat a large skillet or wok over medium-high heat. Add marinated chicken and cook for 5–6 minutes until mostly cooked."
+  - "Add sliced onion and bell peppers and stir-fry for 3–4 minutes until vegetables are tender-crisp and chicken reaches 165°F."
+  - "Serve over warm white rice and garnish with sesame seeds if desired."
+---
